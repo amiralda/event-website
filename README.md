@@ -1,8 +1,8 @@
 # event-website
 
-This is a capstone project for the module 1 named The Portal at Microverse I will have to create a event website with specific requierments
+This is a capstone project for module 1 named The Portal at Microverse I created an event website with specific requirements
 
-this will be an Event Website to announce the haitian Otaku Festival, which will take place at Port-au-Prince, december 2023.
+this will be an Event Website to announce the Haitian Otaku Festival, which will take place in Port-au-Prince, in December 2023.
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
@@ -26,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Dany AUGUSTIN
 - GitHub: [danyaugustin](https://github.com/danyaugustin)
-- LinkedIn: [danyaugustin](https://www.linkedin.com/in/danyaugustin/)
+- LinkedIn [danyaugustin](https://www.linkedin.com/in/danyaugustin/)
 
 ## 🤝 Contributing
 
@@ -34,7 +34,7 @@ Contributions, issues, and feature requests are welcome!
 
 ## Show your support
 
-If you like this project you can support just by giving a Star.
+If you like this project you can support it just by giving it a Star.
 
 ## Acknowledgments
 
