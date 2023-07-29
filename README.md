@@ -26,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Dany AUGUSTIN
 - GitHub: [danyaugustin](https://github.com/dany-augustin)
-- LinkedIn [dany-augustin](https://www.linkedin.com/in/danyaugustin/)
+- LinkedIn [dany-augustin](https://www.linkedin.com/in/dany-augustin/)
 
 ## 🤝 Contributing
 
