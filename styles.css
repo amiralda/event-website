@@ -347,7 +347,6 @@ header {
 
 
 .about-hero {
-  background-color: antiquewhite;
   display: block;
   padding: 50px 50px;
 }
@@ -368,7 +367,7 @@ header {
 .about-desc {
   height: 10rem;
   padding: 10px 15px 10px 15px;
-  background-color: rgb(218, 210, 210);
+  background-color: rgb(255, 255, 255);
 }
 
 .about-common {
@@ -648,7 +647,7 @@ header {
   align-items: center;
   text-align: center;
   margin: 0;
-  padding: 0;
+  padding: 50px 10px 30px 10px;
   background-image: url("./images/backgroundbody.png");
   height: 75vh;
   }
