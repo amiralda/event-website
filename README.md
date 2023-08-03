@@ -4,7 +4,7 @@ This is a capstone project for module 1 named The Portal at Microverse I created
 
 this will be an Event Website to announce the Haitian Otaku Summit, which will take place in Port-au-Prince, in August 2023.
 
-![](https://img.shields.io/badge/Microverse-blueviolet)
+[](https://img.shields.io/badge/Microverse-blueviolet)
 
 ## Built With
 
@@ -14,7 +14,7 @@ this will be an Event Website to announce the Haitian Otaku Summit, which will t
 
 ## Live Demo
 
-- [Live Website]( )
+(Live Website)
 
 ## Getting Started
 
