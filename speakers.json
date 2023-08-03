@@ -1,0 +1,46 @@
+[
+    {
+        "id": "1",
+        "name": "Pedjie Alexander",
+        "title": "Manga Visonary",
+        "picture": "./images/speakers1.jpeg",
+        "Desc": "Pedjie Alexander is the Head of the Maison Otaku of Haiti, she is a graphic designer, a photographer, last year she designed the logo for the annual world tournament, the first one by a girl."
+    },
+    {
+        "id": "2",
+        "name": "Simpson Jonatha",
+        "title": "Explorer",
+        "picture": "./images/speakers2.jpeg",
+        "Desc": "SJ is one of the famous otaku of the community, he visited most of the manga's event happened all over the world, as a senior otaku he win 3 gold medal in the big tournement in Geneve. for 5 years he worked as the coordinator of the same event."
+    },
+    {
+        "id": "3",
+        "name": "Peter Parker",
+        "title": "Project Manager",
+        "picture": "./images/speakers3.png",
+        "Desc": "Peter is a project manager living in New York. He has been a project manager since 2001, and worked for the “Daily News” in NYC for 5 years."
+    },
+    {
+        "id": "4",
+        "name": "Petra Jones",
+        "title": "Event Planner",
+        "picture": "./images/speakers4.JPG",
+        "Desc": "One of the best in his generation, Bonr and lived at Madagascar, Petra worked for 20 years for a local event company named “The Spotlighter”"
+    },
+    {
+        "id": "5",
+        "name": "Demon Angel",
+        "title": "Lighting Artist",
+        "picture": "./images/speakers5.JPG",
+        "Desc": "Angel start her career very soon, at the age of eight, her parent give her light stuff and she start to play with, She spend her life between Paris, Dakar and her mother land Washintong."
+    },
+    {
+        "id": "6",
+        "name": "Nojakkato",
+        "title": "Actor",
+        "picture": "./images/speakers6.png",
+        "Desc": "Tony is an actor living in Osaka Japan. Start his career since Fall 1990, and worked as an actor in USA for more than 15 years."
+    }
+
+    
+]
