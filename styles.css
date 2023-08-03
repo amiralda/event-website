@@ -19,7 +19,6 @@ a:hover {
 }
 
 h1 {
-   -webkit-background-clip: text;
   font-size: 2.2em;
   font-weight: 500;
   color: #000;
@@ -32,8 +31,8 @@ h1 {
   background-position: top center;
   background-size: cover;
   color: transparent;
+  -webkit-background-clip: text;
   background-clip: text;
- 
   
 }
 
@@ -337,13 +336,15 @@ header {
 }
 .footerText{
   padding-top: 25px;
-  -webkit-text-fill-color: #fff;
+    -webkit-text-fill-color: #fff;
 }
 
 .social-bar {
   display: none;
   cursor: pointer;
 }
+
+
 
 .about-hero {
   display: block;
@@ -452,65 +453,66 @@ header {
     display: block;
   }
 
-.navitem {
-  display: grid;
-  height: 50px;
-  grid-template-columns: 1fr 0.25fr 0.25fr 0.25fr 0.25fr 0.25fr 1fr;
-  background: none;
-  justify-content: center;
-  align-items: center;
-  margin: 0 1px 0 1px;
-  padding: 5px 5px 5px 5px;
-  list-style: none;
-  position: fixed;
-}
+  .navitem {
+    display: grid;
+    height: 50px;
+    grid-template-columns: 1fr 0.25fr 0.25fr 0.25fr 0.25fr 0.25fr 1fr;
+    background: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1px 0 1px;
+    padding: 5px 5px 5px 5px;
+    list-style: none;
+    position: fixed;
+  }
 
-.navitem li {
+  .navitem li {
   margin: 5px 5px 5px 5px;
   font-size: 1rem;
-}
+  }
 
-.ticket {
-  padding: 5px 5px;
-  border: 3px solid #ec5242;
-}
+  .ticket {
+    padding: 5px 5px;
+    border: 3px solid #ec5242;
+  }
 
-.nav-colored {
-  display: block;
-  background-color: white;
-  padding: 7px 3px;
-  height: 100px;
-}
+  .nav-colored {
+    display: block;
+    background-color: white;
+    padding: 7px 3px;
+    height: 100px;
+  }
 
-.logo {
-  width: 35%;
-  margin-left: 25px;
-  display: grid;
-}
+  .logo {
+    width: 35%;
+    // float: left;
+    margin-left: 25px;
+    display: grid;
+  }
 
-.hamburger {
-  display: none;
-}
+  .hamburger {
+    display: none;
+  }
 
-.social-bar {
-  display: flex;
-  top: 0;
-  position: fixed;
-  width: 100%;
-  background-color: #272a31;
-  height: 30px;
-  margin: 0;
-  padding: 5px 0;
-  justify-content: flex-end;
-}
+  .social-bar {
+    display: flex;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #272a31;
+    height: 30px;
+    margin: 0;
+    padding: 5px 0;
+    justify-content: flex-end;
+  }
 
-.social-bar li a {
-  text-decoration: none;
-  list-style: none;
-  color: white;
-  margin: 0 20px;
-  cursor: pointer;
-}
+  .social-bar li a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin: 0 20px;
+    cursor: pointer;
+  }
 
   .heroDesc {
     height: 50px;
@@ -544,6 +546,7 @@ header {
     display: flex;
     flex-direction: column;
     width: 90rem;
+    // height: ;
   }
 
   .program {
