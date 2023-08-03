@@ -347,12 +347,7 @@ header {
 
 
 .about-hero {
-  background-image: url("./images/backgroundbody.png");
-  height: 75vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size:75%;
-  top: 0;
+  background-color: antiquewhite;
   display: block;
   padding: 50px 50px;
 }
@@ -371,11 +366,9 @@ header {
 }
 
 .about-desc {
-  height: 70px;
-  border: 2px solid white;
-  padding: 20px 30px;
-  background-color: white;
-  margin: 20px 0;
+  height: 10rem;
+  padding: 10px 15px 10px 15px;
+  background-color: rgb(218, 210, 210);
 }
 
 .about-common {
