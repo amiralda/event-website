@@ -337,15 +337,13 @@ header {
 }
 .footerText{
   padding-top: 25px;
-    -webkit-text-fill-color: #fff;
+  -webkit-text-fill-color: #fff;
 }
 
 .social-bar {
   display: none;
   cursor: pointer;
 }
-
-
 
 .about-hero {
   display: block;
@@ -546,7 +544,6 @@ header {
     display: flex;
     flex-direction: column;
     width: 90rem;
-    // height: ;
   }
 
   .program {
