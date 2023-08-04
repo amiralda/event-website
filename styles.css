@@ -1,7 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/cocogoose');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
@@ -13,6 +12,7 @@ a {
   text-decoration: none;
   color: #000;
 }
+
 li,
 a:hover {
   color: #ec5242;
@@ -142,7 +142,6 @@ header {
   display: none;
 }
 
-
 .hero {
   background-image: url("./images/backgroundbody.png");
   background-position: center;
@@ -181,7 +180,6 @@ header {
 .nav-transparent {
   background: none;
 }
-
 
 .program-container {
   background: url(./images/pattern_bg.png);
@@ -241,7 +239,6 @@ header {
   text-decoration: underline;
 }
 
-
 .speakers-container {
   background-color: white;
   margin: 10px 0;
@@ -296,7 +293,6 @@ header {
   font-size: 0.8em;
 }
 
-
 .sponsors-container {
   background-color: #272a31;
   padding: 20px 30px;
@@ -321,7 +317,6 @@ header {
   margin: 0 5px;
 }
 
-
 .footer {
   background-color: #0e0d0d;
   display: grid;
@@ -334,17 +329,16 @@ header {
   width: 40%;
   margin: 0 auto;
 }
-.footerText{
+
+.footerText {
   padding-top: 25px;
-    -webkit-text-fill-color: #fff;
+ -webkit-text-fill-color: #fff;
 }
 
 .social-bar {
   display: none;
   cursor: pointer;
 }
-
-
 
 .about-hero {
   display: block;
@@ -355,7 +349,6 @@ header {
   margin-top: 15%;
   padding: 20px 10px;
   text-align: center;
- 
 }
 
 .about-hero h2,
@@ -467,8 +460,8 @@ header {
   }
 
   .navitem li {
-  margin: 5px 5px 5px 5px;
-  font-size: 1rem;
+    margin: 5px 5px 5px 5px;
+    font-size: 1rem;
   }
 
   .ticket {
@@ -638,17 +631,16 @@ header {
 
 
   .about-hero {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 0;
-  padding: 50px 10px 30px 10px;
-  background-image: url("./images/backgroundbody.png");
-  height: 75vh;
-  }
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 50px 10px 30px 10px;
+    background-image: url("./images/backgroundbody.png");
+   }
 
   .about-text-hero {
     width: 80%;
