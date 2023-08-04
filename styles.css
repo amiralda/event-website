@@ -485,7 +485,6 @@ header {
 
   .logo {
     width: 35%;
-    // float: left;
     margin-left: 25px;
     display: grid;
   }
