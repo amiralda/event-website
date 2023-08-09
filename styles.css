@@ -684,18 +684,6 @@ padding: 1.5rem 1rem 1rem 1rem;
     -webkit-text-fill-color: #fff;
   }
 
-  .about-hero {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 0;
-    padding: 50px 10px 30px 10px;
-    background-image: url("./images/backgroundbody.png");
-   }
-
   .about-text-hero {
     width: 80%;
     margin: 0;
