@@ -23,6 +23,7 @@ h1 {
   font-weight: 500;
   color: #000;
   line-height: 1.3em;
+  padding: 1.5rem 1rem 1rem 1rem;
   margin: 0;
   padding: 0;
   font-family: 'COCOGOOSE', sans-serif;
@@ -30,20 +31,24 @@ h1 {
   background-image: url(images/cc-conf-2.jpg);
   background-position: top center;
   background-size: cover;
-  color: transparent;
+  // color: transparent;
   -webkit-background-clip: text;
-  background-clip: text;
-  
+  background-clip: content-box;
 }
 
-h2 {
-  font-size: 1.3em;
-  font-weight: 500;
-  color: #000;
-  margin: 0;
-  padding: 0;
-  font-family: 'COCOGOOSE', sans-serif;
-}
+.speakers-container h2{
+  display: flex;
+  height: 78.088px;
+  flex-direction: column;
+  justify-content: center;
+  color: #595959;
+  font-family: Gothic A1;
+  font-size: 42.484px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 0px; /* 0% */
+  letter-spacing: -3.399px;
+    }
 
 h3 {
   font-size: 1em;
@@ -63,6 +68,21 @@ p {
   font-family: 'Lato', sans-serif;
 }
 
+.adress {
+display: flex;
+width: 337px;
+height: 13px;
+flex-direction: column;
+justify-content: center;
+color: #868686;
+font-family: Gothic A1;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: 0px; /* 0% */
+letter-spacing: -0.26px;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -80,6 +100,7 @@ header {
 .social-bar img {
   height: auto;
 }
+
 .bar {
   display: block;
   width: 30px;
@@ -87,7 +108,7 @@ header {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: #000;
+  background: #040000;
 }
 
 .hamburger {
@@ -358,10 +379,27 @@ header {
 }
 
 .about-desc {
-  height: 10rem;
-  padding: 10px 15px 10px 15px;
-  background-color: rgb(255, 255, 255);
+color: #000;
+text-align: center;
+font-family: Lato;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 178.571% */
+background-color: rgb(255, 255, 255);
+padding: 1.5rem 1rem 1rem 1rem;
 }
+
+ .ask-question {
+  display: flex;
+  width:fit-content;
+  height: 50px;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem 1rem 3rem 2rem;
+  gap: 25px;
+  background-color: rgb(243 241 241 / 9%);
+ }
 
 .about-common {
   display: flex;
@@ -506,6 +544,11 @@ header {
     cursor: pointer;
   }
 
+   .hero {
+    height: 100vh;
+    margin-bottom: 3rem;
+  }
+
   .heroDesc {
     height: 50px;
     width: 50%;
@@ -523,8 +566,20 @@ header {
     font-size: 2.2em;
   }
 
-  .hero {
-    height: 100vh;
+  .adress {
+  display: flex;
+  width: 715.85px;
+  height: 27.614px;
+  flex-direction: column;
+  justify-content: center;
+  color: #868686;
+  font-family: Gothic A1;
+  font-size: 27.614px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0px; /* 0% */
+  letter-spacing: -0.552px;
+  padding: 0 0.5rem 0.5rem 0.5rem;
   }
 
   .program-container h2 {
@@ -628,7 +683,6 @@ header {
     padding-top: 45px;
     -webkit-text-fill-color: #fff;
   }
-
 
   .about-hero {
     height: 100vh;
