@@ -171,11 +171,11 @@ header {
 }
 
 .hero h3 {
-    color: #ec5242;
-    font-size: 2.1rem;
-    font-weight: 300;
-    margin: 1rem 1rem 0.5rem 1rem;
-  }
+  color: #ec5242;
+  font-size: 2.1rem;
+  font-weight: 300;
+  margin: 1rem 1rem 0.5rem 1rem;
+}
 
 .heroDesc {
   height: 100px;
@@ -199,7 +199,6 @@ header {
 .program-container {
   background: url(./images/pattern_bg.png);
   background-color: #272a31;
-
 }
 
 .program-container h2 {
@@ -218,12 +217,12 @@ header {
   background-color: rgba(243, 243, 243, 0.074);
   height: 90px;
   width: auto;
-  padding:2rem 1rem 0 1rem;
+  padding: 2rem 1rem 0 1rem;
 }
 
 .hr {
   width: 5rem;
-  height:2px;
+  height: 2px;
   background-color: #e7dfde;
   display: block;
   margin: 1rem auto;
@@ -242,7 +241,8 @@ header {
   color: white;
   font-size: 0.8em;
 }
- .all-program {
+
+.all-program {
   color: rgb(146, 81, 66);
   border: none;
   background-color: #f2f3f2;
@@ -532,7 +532,6 @@ header {
   .social-bar {
     display: flex;
     grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
-    align-items: 14em;
     top: 0;
     position: fixed;
     width: 100%;
@@ -602,7 +601,7 @@ header {
   .program-container {
     display: flex;
     flex-direction: column;
-    width:auto;
+    width: auto;
   }
 
   .program {
@@ -641,17 +640,17 @@ header {
   }
 
   .all-program {
-  color: rgb(146, 81, 66);
-  border: none;
-  background-color: #f2f3f2;
-  border-radius: 3%;
-  width: 15rem;
-  padding: 20px 40px;
-  margin: 20px auto;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-}
+    color: rgb(146, 81, 66);
+    border: none;
+    background-color: #f2f3f2;
+    border-radius: 3%;
+    width: 15rem;
+    padding: 20px 40px;
+    margin: 20px auto;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+  }
 
   #speaker-holder {
     display: grid;
