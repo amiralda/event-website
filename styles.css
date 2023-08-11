@@ -171,8 +171,11 @@ header {
 }
 
 .hero h3 {
-  color: #ec5242;
-}
+    color: #ec5242;
+    font-size: 2.1rem;
+    font-weight: 300;
+    margin: 1rem 1rem 0.5rem 1rem;
+  }
 
 .heroDesc {
   height: 100px;
@@ -196,7 +199,7 @@ header {
 .program-container {
   background: url(./images/pattern_bg.png);
   background-color: #272a31;
-  padding: 20px 30px;
+
 }
 
 .program-container h2 {
@@ -209,48 +212,48 @@ header {
 .program {
   display: grid;
   grid-template-columns: 0.5fr 1fr 1fr;
-  margin: 20px auto;
+  margin: 3rem auto;
   justify-content: center;
   align-content: center;
   background-color: rgba(243, 243, 243, 0.074);
-  height: 80px;
+  height: 90px;
   width: auto;
-  padding: 10px 10px;
+  padding:2rem 1rem 0 1rem;
 }
 
 .hr {
-  width: 50px;
-  height: 2px;
-  background-color: #ec5242;
+  width: 5rem;
+  height:2px;
+  background-color: #e7dfde;
   display: block;
-  margin: 0 auto;
+  margin: 1rem auto;
 }
 
 .program img {
-  width: 75%;
+  width: 80%;
 }
 
 .program h3 {
   color: #ec5242;
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 .program p {
   color: white;
   font-size: 0.8em;
 }
-
-.all-program {
-  color: white;
+ .all-program {
+  color: rgb(146, 81, 66);
   border: none;
+  background-color: #f2f3f2;
+  border-radius: 3%;
+  width: 15rem;
   padding: 20px 40px;
-  margin: 40px auto;
-  font-size: 1em;
-  font-weight: 500;
+  margin: 1rem auto;
   cursor: pointer;
-  display: block;
   text-align: center;
-  text-decoration: underline;
+  text-decoration: none;
+  display: block;
 }
 
 .speakers-container {
@@ -271,6 +274,8 @@ header {
   background-position: top left;
   background-repeat: no-repeat;
   background-size: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .img-holder img {
@@ -295,13 +300,8 @@ header {
 
 .speaker-header {
   color: rgb(18, 9, 9);
-  border: none;
-  padding: 5px 40px;
-  margin: 40px auto;
-  font-size: 2em;
   font-weight: 500;
   cursor: pointer;
-  display: block;
   text-align: center;
 }
 
@@ -467,7 +467,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  width: 80%;
   height: 300px;
   margin: 15px auto;
   text-align: center;
@@ -491,7 +491,7 @@ header {
 
   .navitem {
     display: grid;
-    height: 50px;
+    height: 150px;
     grid-template-columns: 1fr 0.25fr 0.25fr 0.25fr 0.25fr 0.25fr 1fr;
     background: none;
     justify-content: center;
@@ -531,14 +531,16 @@ header {
 
   .social-bar {
     display: flex;
+    grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
+    align-items: 14em;
     top: 0;
     position: fixed;
     width: 100%;
     background-color: #272a31;
     height: 30px;
     margin: 0;
-    padding: 5px 0;
-    justify-content: flex-end;
+    padding: 0.5rem 0 0 12rem;
+    justify-content: center;
   }
 
   .social-bar li a {
@@ -600,16 +602,16 @@ header {
   .program-container {
     display: flex;
     flex-direction: column;
-    width: 90rem;
+    width:auto;
   }
 
   .program {
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 20rem;
+    height: 10rem;
     padding: 10px 10px;
-    background-color: #ffffff3e;
+    background-color: #e6e1e152;
     margin: 0 5px;
   }
 
@@ -618,11 +620,10 @@ header {
   }
 
   .hr {
-    width: 50px;
+    width: 5rem;
     height: 2px;
-    background-color: #ec5242;
+    background-color: #d9d0cf;
     display: block;
-    margin: 0 auto;
   }
 
   .program img {
@@ -638,6 +639,19 @@ header {
     color: white;
     font-size: 0.8em;
   }
+
+  .all-program {
+  color: rgb(146, 81, 66);
+  border: none;
+  background-color: #f2f3f2;
+  border-radius: 3%;
+  width: 15rem;
+  padding: 20px 40px;
+  margin: 20px auto;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
 
   #speaker-holder {
     display: grid;
