@@ -156,7 +156,8 @@ header {
   display: none;
 }
 
-.hero {
+.hero,
+.join-us {
   background-image: url("./images/backgroundbody.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -165,12 +166,14 @@ header {
   padding: 50px 50px;
 }
 
-.text-hero {
+.text-hero,
+.join {
   margin-top: 5%;
   padding: 20px 10px;
 }
 
-.hero h3 {
+.hero,
+.join-us h3 {
   color: #ec5242;
   font-size: 2.1rem;
   font-weight: 300;
@@ -254,6 +257,15 @@ header {
   text-align: center;
   text-decoration: none;
   display: block;
+}
+
+.join-hero {
+  background-image: url("./images/backgroundbody.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  padding: 3rem 5rem 5rem 5rem;
 }
 
 .speakers-container {
@@ -500,11 +512,13 @@ header {
     padding: 5px 5px 5px 5px;
     list-style: none;
     position: fixed;
+    
   }
 
   .navitem li {
     margin: 5px 5px 5px 5px;
     font-size: 1rem;
+    
   }
 
   .ticket {
